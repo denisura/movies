@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/poster_imageview"
+        android:layout_width="185dp"
+        android:layout_height="277dp"
+        android:gravity="center_vertical"
+        android:minHeight="277dp"
+        android:src="@android:drawable/ic_lock_idle_alarm"
+        android:contentDescription="@string/detail_image_description_movie_poster"
+        />

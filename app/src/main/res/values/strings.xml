@@ -1,0 +1,66 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Rubric</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_sortby">Sort by</string>
+    <string name="pref_sortby_key" translatable="false">sortby</string>
+
+    <string name="pref_sortby_label_popularity">Popularity</string>
+    <string name="pref_sortby_label_hirated">Highest-rated</string>
+
+    <string name="pref_sortby_popularity" translatable="false">popularity.desc</string>
+    <string name="pref_sortby_hirated" translatable="false">vote_count.desc</string>
+
+
+    <string name="detail_image_description_movie_poster">Movie poster</string>
+    <string name="detail_image_description_movie_trailer">Movie trailer</string>
+    <string name="movie_detail_overview">Overview</string>
+    <string name="movie_detail_trailers">Trailers</string>
+    <string name="movie_detail_reviews">Reviews</string>
+    <string name="movie_detail_review_author">Author:</string>
+
+    <string name="movie_detail_format_rating"><xliff:g name="rating">%1.1f</xliff:g>/10</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">rubric.uraganov.net</string>
+    <string name="content_authority">net.uraganov.rubric</string>
+
+
+    <!-- Navigation drawer  related -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_most_popular">Most Popular</string>
+    <string name="nav_item_highest_rated">Highest Rated</string>
+    <string name="nav_item_favorite">Favorite</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_most_popular</item>
+        <item>@string/nav_item_highest_rated</item>
+        <item>@string/nav_item_favorite</item>
+    </string-array>
+
+    <string name="title_most_popular">Most Popular</string>
+    <string name="title_highest_rated">Highest Rated</string>
+    <string name="title_favorite">Favorite</string>
+
+    <!-- Shared Preferences Properties -->
+    <string name="pref_collection_state" translatable="false">pref_collection_state</string>
+    <string name="pref_collection_state_type" translatable="false">pref_collection_state_type</string>
+    <string name="pref_collection_state_position" translatable="false">pref_collection_state_position</string>
+
+
+    <string name="favorite_off">Favorite</string>
+    <string name="favorite_on">Mark as favorite</string>
+
+
+    <string name="format_share_trailer">Check this movie https://www.youtube.com/watch?v=<xliff:g id="condition">%1$s</xliff:g></string>
+
+
+</resources>

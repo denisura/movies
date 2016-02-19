@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="col_number">1</integer>
+    <integer name="scroll_orientation">0</integer>
+
+    <integer name="pref_collection_state_type_most_popular">0</integer>
+    <integer name="pref_collection_state_type_high_rated">1</integer>
+    <integer name="pref_collection_state_type_favorite">2</integer>
+
+</resources>

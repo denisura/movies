@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="net.uraganov.rubric.movie.detail.MovieDetailFragment">
+
+        <TextView
+            android:id="@+id/detail_original_title"
+            style="@style/MovieDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Movie title"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/detail_poster_imageview"
+                style="@style/MovieDetailPosterImageView"
+                android:contentDescription="@string/detail_image_description_movie_poster"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/release_date"
+                    style="@style/MovieDetailRelease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="2005"/>
+
+                <TextView
+                    android:id="@+id/detail_vote_average"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="7.0/10"/>
+
+                <ImageView
+                    android:id="@+id/detail_favorite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/favorite_off"
+                    android:src="@android:drawable/star_big_off"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_detail_overview"
+            />
+
+        <TextView
+            android:id="@+id/detail_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/activity_horizontal_margin"
+            tools:text="Overview"/>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_detail_trailers"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_movie_collection_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_detail_reviews"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_movie_review_collection_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
