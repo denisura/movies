@@ -9,7 +9,7 @@ An Android App to discover the most popular movies playing
 
 Demo
 ----
-![Popular Movies](https://github.com/sharecirclelabs/movie/raw/master/doc/phone.gif)
+![Popular Movies](https://github.com/sharecirclelabs/movies/raw/master/doc/phone.gif)
 
 Pre-requisites
 --------------
